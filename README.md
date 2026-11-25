@@ -20,7 +20,9 @@ Systems & Tools Engineer focused on **Windows Kernel / VHCI Drivers**, **USB-ove
 | **[SnakeUSBIP](https://github.com/oscarlosu-lab/SnakeUSBIP)** | `.NET 9`, `Kotlin`, `Swift`, `Linux` | Industrial USB/IP suite for CNC, laser cutters (LightBurn/GRBL), 3D printers & lab hardware. CodeQL, Gitleaks & Sigstore attested. | [Website](https://oscarlosu-lab.github.io/SnakeUSBIP/) · [Releases](https://github.com/oscarlosu-lab/SnakeUSBIP/releases/latest) |
 | **[GameCopilotAI](https://github.com/oscarlosu-lab/GameCopilotAI)** | `Python`, `Ollama`, `Whisper`, `RAG` | 100% local & private AI gaming companion with RAG guides, voice input & real-time vision HUD. | [Repo](https://github.com/oscarlosu-lab/GameCopilotAI) |
 | **[Aniimo Homeland Studio](https://github.com/oscarlosu-lab/aniimo-homeland-studio)** | `Web`, `GitHub Pages` | Mathematical production optimizer, layout planner & crafting calculator. | [Live App](https://oscarlosu-lab.github.io/aniimo-homeland-studio/) |
+| **[FoxuMarsDisplay](https://github.com/oscarlosu-lab/FoxuMarsDisplay)** | `.NET 9`, `C#`, `USB LCD`, `NVML` | Ultra-lightweight source-available SOEYI alternative for USB LCD PC case screens with native `theme.yaml` engine. | [Repo](https://github.com/oscarlosu-lab/FoxuMarsDisplay) · [Releases](https://github.com/oscarlosu-lab/FoxuMarsDisplay/releases/latest) |
 | **[Leonida Map](https://github.com/oscarlosu-lab/leonida-map)** | `Web`, `GitHub Pages` | Interactive high-resolution map explorer with layers & coordinates. | [Live Map](https://oscarlosu-lab.github.io/leonida-map/) |
+| **[AniiMax ES](https://github.com/oscarlosu-lab/aniimax-es)** | `Web`, `GitHub Pages` | Spanish interactive Aniimo companion portal & encyclopedia. | [Live Site](https://oscarlosu-lab.github.io/aniimax-es/) |
 
 ---
 
