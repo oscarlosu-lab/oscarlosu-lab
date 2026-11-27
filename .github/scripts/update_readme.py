@@ -58,17 +58,18 @@ def build_table(token: str | None) -> str:
     selected.sort(key=lambda r: r.get("pushed_at", ""), reverse=True)
 
     lines = [
-        "| Repository | Stack | Stars | Updated | Links |",
-        "|---|---|---:|---|---|",
+        "| Project | Stack | Stars | Updated | Links |",
+        "|---|---|---:|:---:|---|",
     ]
     for r in selected:
         name = r["name"]
         html_url = r["html_url"]
         desc = (r.get("description") or "").replace("|", "\\|").strip()
-        if len(desc) > 95:
-            desc = desc[:92].rstrip() + "..."
-        lang = r.get("language") or "—"
+        if len(desc) > 105:
+            desc = desc[:102].rstrip() + "..."
+        lang = r.get("language") or "Docs"
         stars = r.get("stargazers_count", 0)
+        stars_cell = f"⭐ {stars}" if stars > 0 else "—"
         pushed = (r.get("pushed_at") or "")[:10]
 
         links = [f"[Repo]({html_url})"]
@@ -83,7 +84,7 @@ def build_table(token: str | None) -> str:
             label += f"<br/><sub>{desc}</sub>"
 
         lines.append(
-            f"| {label} | `{lang}` | {stars} | `{pushed}` | {' · '.join(links)} |"
+            f"| {label} | `{lang}` | {stars_cell} | `{pushed}` | {' · '.join(links)} |"
         )
 
     return "\n".join(lines)
