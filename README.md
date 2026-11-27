@@ -6,6 +6,7 @@
 
 [![GitHub Followers](https://img.shields.io/github/followers/oscarlosu-lab?style=for-the-badge&logo=github&color=0ea5e9)](https://github.com/oscarlosu-lab)
 [![Cross-Platform](https://img.shields.io/badge/Platforms-Windows%20%C2%B7%20Linux%20%C2%B7%20macOS%20%C2%B7%20Android-2563eb?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/oscarlosu-lab?tab=repositories)
+[![Telegram News](https://img.shields.io/badge/Telegram-News%20%26%20Contact-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/oscarlosu_lab)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20My%20Work-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/oscarlosu)
 
 **[🇬🇧 English](README.md) · [🇪🇸 Español](README_ES.md)**
